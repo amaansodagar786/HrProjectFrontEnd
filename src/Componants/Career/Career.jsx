@@ -29,7 +29,7 @@ const CareerForm = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('https://newprojectbackend.vercel.app/career', formData, {
+      const response = await axios.post('https://hrprojecbackend.onrender.com/career', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
